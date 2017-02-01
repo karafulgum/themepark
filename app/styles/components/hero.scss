@@ -1,19 +1,4 @@
 .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-
-  &::after {
-    content: '';
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(#1D96D7, 1), rgba(#def, 0) 80%, rgba(white, .5));
-    z-index: 11;
-    transform: translate3d(0, 0, 0);
-  }
 
   &__logo {
     position: absolute;
@@ -22,6 +7,6 @@
     transform: translate(-50%, 0);
     margin: 2rem 0;
     width: 15rem;
-    z-index: 1;
+    z-index: 2;
   }
 }
