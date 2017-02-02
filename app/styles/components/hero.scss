@@ -1,12 +1,16 @@
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  margin: 2rem 0;
+  z-index: 2;
 
   &__logo {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    margin: 2rem 0;
     width: 15rem;
-    z-index: 2;
   }
 }
