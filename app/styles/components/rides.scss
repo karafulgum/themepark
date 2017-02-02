@@ -1,0 +1,40 @@
+.rides {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem -0.5rem;
+
+  &__item {
+    flex-grow: 1;
+    flex-basis: calc(100% / 3 - 1rem);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    border-radius: 0.4rem;
+    background: rgba(255,255,255, .45);
+  }
+
+  &__item-title {
+    margin: 0.5rem auto;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__item-subtitle {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &__item-wait {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+}
+@media (max-width: 420px) {
+  .rides {
+    flex-direction: column;
+  }
+}
