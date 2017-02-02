@@ -3,38 +3,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translate(-50%, 0);
-  z-index: 2;
+  margin: 0 1rem;
   height: 100vh;
 
   &__options {
-    flex-direction: row;
+    display: flex;
+    align-items: center;
   }
 
   &__options-item {
-    flex-grow: 1;
+    flex-basis: calc(50% - 1rem);
     padding: 1rem 2rem;
+    margin: 0 0.5rem;
     border: 1px solid #fff;
     border-radius: 0.4rem;
     background: rgba(255,255,255, .45);
-    color: #000;
     text-decoration: none;
-
-    &--orlando {
-      padding: 2.5rem 2rem;
-    }
-
-    &:last-of-type {
-      margin-left: 0.5rem;
-    }
   }
 
   &__title {
-    font-size: 2rem;
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
   }
 }
