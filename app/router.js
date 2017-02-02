@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('disney');
+  this.route('universal');
 });
 
 export default Router;
