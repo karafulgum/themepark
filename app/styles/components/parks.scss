@@ -19,6 +19,11 @@
     border-radius: 0.4rem;
     background: rgba(255,255,255, .45);
     text-decoration: none;
+
+    &:hover {
+      border: 1px solid gray;
+      background: rgba(#d7d7d4,.45);
+    }
   }
 
   &__title {
